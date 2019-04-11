@@ -1,6 +1,6 @@
 {
     "name": "ewc/db-multi-connect",
-    "description": "Boilerplate package for creating other packages.",
+    "description": "MySQL PDO Database Multi Connection, Master - Slave Handler System.",
     "keywords": ["EWC", "Database", "MySQL", "PDO"],
     "license": "0BSD",
 	"readme": "Readme.md",
