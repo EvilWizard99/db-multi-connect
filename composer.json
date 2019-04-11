@@ -1,0 +1,25 @@
+{
+    "name": "ewc/db-multi-connect",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["EWC", "Database", "MySQL", "PDO"],
+    "license": "0BSD",
+	"readme": "Readme.md",
+    "authors": [
+        {
+            "name": "Evil Wizard",
+            "email": "evil.wizard95@googlemail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.5",
+		"ewc/commons": "1.0.*",
+		"ewc/config": "1.0.*"
+    },
+	"require-dev": {},
+	"autoload": {
+        "psr-4": {
+            "EWC\\DB\\": "src/"
+        }
+    }
+}

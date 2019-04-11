@@ -1,0 +1,26 @@
+db:
+    # the default connection alias
+    default_connection: main
+    # list of database connection alias names and connection specific config
+    connections:
+        main:
+			# connection environment 
+            env: local
+			# connection data source name 
+            dsn: localhost
+            database: database
+            username: username
+            password: password
+            port: 3306
+            # flag to indicate the MAMP socket config should be added to the PDO connection
+            use_mamp_sockets: false
+        test:
+            env: test
+            dsn: localhost
+            database: test_database
+            username: test_username
+            password: test_password
+            port: 3306
+            # flag to indicate the MAMP socket config should be added to the PDO connection
+            use_mamp_sockets: true
+
