@@ -21,7 +21,7 @@ Configuration
 
 The main section of the config.
 
-- **default_connection** - *The default connection alias to use if none specified.*
+- **default\_connection** - *The default connection alias to use if none specified.*
 - **connections** - *A collection of database connection alias names and connection specific config.*
 
 The connections sections are grouped with the database connection being aliased 

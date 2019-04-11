@@ -7,7 +7,7 @@
  * @author Russell Nash <evil.wizard95@googlemail.com>
  * @copyright 2019 Evil Wizard Creation.
  */
-class ManagerTest extends PHPUnit_Framework_TestCase{
+class ManagerTest extends PHPUnit_Framework_TestCase {
 	
 	/**
 	 * Just check if the Manager has no syntax error 
